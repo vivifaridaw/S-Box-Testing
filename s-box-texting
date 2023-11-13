@@ -11,6 +11,4 @@ def generate_random_sbox(n):
 # Contoh: Membuat S-box 4-bit
 n = int(input("Masukkan panjang S-Box: "))
 random_sbox = generate_random_sbox(n)
-print(type(random_sbox))
-print(random_sbox)
-print(random_sbox[1])
+
