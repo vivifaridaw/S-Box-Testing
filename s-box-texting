@@ -1,4 +1,4 @@
-#generate sbox acak
+#fungsi generate sbox acak
 import random
 
 def generate_random_sbox(n):
