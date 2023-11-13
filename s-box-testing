@@ -1,0 +1,16 @@
+#generate sbox acak
+import random
+
+def generate_random_sbox(n):
+    # Buat S-box kosong
+    sbox = list(range(2**n))
+    random.shuffle(sbox)  # Acak nilai-nilai dalam S-box
+
+    return sbox
+
+# Contoh: Membuat S-box 4-bit
+n = int(input("Masukkan panjang S-Box: "))
+random_sbox = generate_random_sbox(n)
+print(type(random_sbox))
+print(random_sbox)
+print(random_sbox[1])
